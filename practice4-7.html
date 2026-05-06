@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>:hover 활용</title>
+</head>
+<body>
+    <h3>:hover 활용</h3>
+    <hr>
+    <table>
+        <tr>
+            <td>마우스를 올리면 카드의 앞면이 보인다.</td>
+            <td>
+                <style>
+                    .card{
+                        width: 100px;
+                        height: 150px;
+                        background-image: url(media/reversecard.png);
+                        background-size: cover;
+                    }
+                    .card:hover{
+                        background-image: url(media/trumpcard.png);
+                    }
+                </style>
+                <div class="card"></div>
+            </td>
+        </tr>    
+    </table>
+</body>
+</html>
